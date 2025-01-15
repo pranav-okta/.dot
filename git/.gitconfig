@@ -1,0 +1,55 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Pranav RK
+  email = pranav.rathinakumar@okta.com
+[core]
+	editor = nvim
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = true
+	autocrlf = input
+  pager = delta
+[interactive]
+  diffFilter = delta --color-only
+[merge]
+  conflictstyle = diff3
+[help]
+	autocorrect = 20
+[delta]
+  navigate = true # use n and N to move between diff sections
+  light = false # set to true for light background
+  line-numbers = true
+[alias]
+	st = status
+	ci = commit
+  cm = commit -m
+  ca = commit --amend
+  br = branch
+	co = checkout
+	ssb = status -sb
+	d = diff
+	dt = difftool
+[diff]
+  colorMoved = default
+[difftool]
+	prompt = true
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[init]
+	defaultBranch = main
+[rerere]
+	enabled = true
+[column]
+  ui = auto
+[branch]
+  sort = -committerdate
+[log]
+  showSignature = false
