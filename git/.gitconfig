@@ -6,6 +6,7 @@
 [user]
 	name = Pranav RK
   email = pranav.rathinakumar@okta.com
+  signingkey = 39F0973F0E70F639
 [core]
 	editor = nvim
 	diff = auto
@@ -25,6 +26,8 @@
   navigate = true # use n and N to move between diff sections
   light = false # set to true for light background
   line-numbers = true
+[commit]
+  gpgsign = true
 [alias]
 	st = status
 	ci = commit
