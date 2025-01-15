@@ -2,7 +2,7 @@
 live_config_reload = true
 
 import = [
-  "~/.config/alacritty/themes/gruvbox-material-hard-dark.toml"
+  "~/.config/alacritty/themes/tokyo_night.toml"
 ]
 
 [env]
@@ -15,16 +15,16 @@ blinking = "Never"
 size = 14.0
 
 [font.bold]
-family = "FiraCode Nerd Font"
+family = "JetbrainsMono Nerd Font"
 
 [font.bold_italic]
-family = "FiraCode Nerd Font"
+family = "JetbrainsMono Nerd Font"
 
 [font.italic]
-family = "FiraCode Nerd Font"
+family = "JetbrainsMono Nerd Font"
 
 [font.normal]
-family = "FiraCode Nerd Font"
+family = "JetbrainsMono Nerd Font"
 
 [font.offset]
 x = 0
