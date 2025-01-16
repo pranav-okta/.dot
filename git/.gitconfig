@@ -16,6 +16,7 @@
 	ui = true
 	autocrlf = input
   pager = delta
+	sshCommand = /usr/local/bin/ocm handler ssh
 [interactive]
   diffFilter = delta --color-only
 [merge]
@@ -56,3 +57,10 @@
   sort = -committerdate
 [log]
   showSignature = false
+[credential]
+	useHttpPath = true
+	helper = /usr/local/bin/ocm handler https
+[gpg]
+	program = /opt/homebrew/bin/gpg
+[push]
+	autoSetupRemote = true
