@@ -6,7 +6,7 @@
 [user]
 	name = Pranav RK
   email = pranav.rathinakumar@okta.com
-  signingkey = 39F0973F0E70F639
+  signingkey = A521DB9D70A958CF
 [core]
 	editor = nvim
 	diff = auto
