@@ -58,7 +58,7 @@ return {
         local builtin = require("telescope.builtin")
         builtin.find_files({
           prompt_title = "< Dotfiles >",
-          cwd = "$HOME/.dots/",
+          cwd = "$HOME/.dot/",
           hidden = true,
         })
       end,

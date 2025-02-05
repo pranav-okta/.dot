@@ -135,27 +135,27 @@ return {
     })
 
     -- astro language server
-    lspconfig["astro"].setup({
-      handlers = handlers,
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
+    -- lspconfig["astro"].setup({
+    --   handlers = handlers,
+    --   capabilities = capabilities,
+    --   on_attach = on_attach,
+    -- })
 
     -- svelte language server
-    lspconfig["svelte"].setup({
-      handlers = handlers,
-      capabilities = capabilities,
-      on_attach = on_attach,
-      cmd = { "svelteserver", "--stdio" },
-      filetypes = { "svelte" },
-    })
+    -- lspconfig["svelte"].setup({
+    --   handlers = handlers,
+    --   capabilities = capabilities,
+    --   on_attach = on_attach,
+    --   cmd = { "svelteserver", "--stdio" },
+    --   filetypes = { "svelte" },
+    -- })
 
     -- tailwindcss server
-    lspconfig["tailwindcss"].setup({
-      handlers = handlers,
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
+    -- lspconfig["tailwindcss"].setup({
+    --   handlers = handlers,
+    --   capabilities = capabilities,
+    --   on_attach = on_attach,
+    -- })
 
     -- python server
     lspconfig["pyright"].setup({
@@ -263,7 +263,7 @@ return {
     --
     -- terraform
     lspconfig["terraformls"].setup({
-    handlers = handlers,
+      handlers = handlers,
       capabilities = capabilities,
       on_attach = on_attach,
     })
@@ -281,7 +281,5 @@ return {
       capabilities = capabilities,
       on_attach = on_attach,
     })
-
-    lspconfig["clangd"].setup({})
   end,
 }
