@@ -10,6 +10,7 @@ return {
     "saadparwaiz1/cmp_luasnip", -- for autocompletion
     "rafamadriz/friendly-snippets", -- useful snippets
     "onsails/lspkind.nvim", -- vs-code like pictograms
+    "zbirenbaum/copilot.lua",
   },
   config = function()
     local cmp = require("cmp")
@@ -76,6 +77,7 @@ return {
         { name = "nvim_lsp" },
         { name = "nvim_lua" },
         { name = "luasnip" }, -- snippets
+        { name = "copilot" },
         { name = "codeium" },
         { name = "buffer" }, -- text within current buffer
         { name = "path" }, -- file system paths
